@@ -59,7 +59,7 @@ question response matrix, which allows us to subsequently establish the notion o
 resulting simialrity matrix is then served as the basis for the (question-)cluster analysis 
 and for deriving the optimal question assignment policy using genetic algorithm.
 
-For further details, please refer to [this doc](https://drive.google.com/file/d/1Tv7_fl-UpqEFgxXP0nA7y1g9Q3W7uQAt/view?usp=sharing).
+For further details, please refer to [this documentation](https://drive.google.com/file/d/1Tv7_fl-UpqEFgxXP0nA7y1g9Q3W7uQAt/view?usp=sharing).
 
 
 Implementation
