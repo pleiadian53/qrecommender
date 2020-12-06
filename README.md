@@ -36,9 +36,18 @@ consists of:
 response is marked as a 0
 
 
+Data
+====
+astudentData.csv
+
+
 Solutions
 =========
-1. Collaborative Filtering + Genetic Algorithm
+For the purpose of this demo, I will focus on the regression-based collaborative filtering (CF)
+algorithm to first infer how students would respond to questions together with question similarity 
+from the data (astudentData.csv). Subsequently the output 'rating matrix' is used as the basis for
+the (question-)cluster analysis and for deriving the optimal question assignment policy using
+genetic algorithm.
 
 
 Instructions
