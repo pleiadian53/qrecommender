@@ -41,8 +41,8 @@ Data
 astudentData.csv
 
 
-Solutions
-=========
+Solution
+========
 This problem can be formulated by a 'rating matrix' where rows correspond to students, 
 columns correspond to questions, and each cell represents how a student responds to 
 a given question. Similar to the missing-value scenarios in movie rating predictions, 
@@ -59,9 +59,11 @@ question response matrix, which allows us to subsequently establish the notion o
 resulting simialrity matrix is then served as the basis for the (question-)cluster analysis 
 and for deriving the optimal question assignment policy using genetic algorithm.
 
+For further details, please refer to [this doc](https://drive.google.com/file/d/1Tv7_fl-UpqEFgxXP0nA7y1g9Q3W7uQAt/view?usp=sharing).
 
-Instructions
-============
+
+Implementation
+==============
 
 I. System Requirements
     (a) The code was implemented in Python 2.7 on Mac OS X 10.7 platform.
@@ -88,6 +90,5 @@ weighted averaging with similarity matrix and regression-based scheme). Lastly, 
 implements Polack-Ribiere flavour of conjugate gradients. The rest of the files mostly contain
 helper functions.
 
-For further details, please refer to [this doc](https://drive.google.com/file/d/1Tv7_fl-UpqEFgxXP0nA7y1g9Q3W7uQAt/view?usp=sharing).
 
 
