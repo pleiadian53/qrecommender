@@ -43,11 +43,21 @@ astudentData.csv
 
 Solutions
 =========
-For the purpose of this demo, I will focus on the regression-based collaborative filtering (CF)
-algorithm to first infer how students would respond to questions together with question similarity 
-from the data (astudentData.csv). Subsequently the output 'rating matrix' is used as the basis for
-the (question-)cluster analysis and for deriving the optimal question assignment policy using
-genetic algorithm.
+This problem can be formulated by a 'rating matrix' where rows correspond to students, 
+columns correspond to questions, and each cell represents how a student responds to 
+a given question. Similar to the missing-value scenarios in movie rating predictions, 
+each student is unlikely to have answered all quesitions but only a small subset of them.  
+
+Given a historical record on student's response to a set of questions, we will first 
+infer from the data (see astduentData.csv) how students would respond to questions they 
+have never encountered before; this will lead us to a full rating matrix (or more precisely, 
+a question response matrix).
+
+This demo uses two regression-based collaborative filtering (CF) algorithms to infer this 
+question response matrix, which allows us to subsequently establish the notion of 
+"question similarity" based on the response each question received from the students. The 
+resulting simialrity matrix is then served as the basis for the (question-)cluster analysis 
+and for deriving the optimal question assignment policy using genetic algorithm.
 
 
 Instructions
