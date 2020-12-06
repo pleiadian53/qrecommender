@@ -47,15 +47,15 @@ users).
 II. Related Modules
 
     1. cofi.py is the main entry of the code. Most of the modules include tests and a "main"
-function that demonstrate main features and their usage. 
+       function that demonstrate main features and their usage. 
 
     2. The file set {cluster1.py, cluster2.py, cluster_util.py, similarity.py, multidim_scaling.py} 
-deals with clustering algorithms and data visualization (for the purpose of identifying 
-similar questions). 
+       deals with clustering algorithms and data visualization (for the purpose of identifying 
+       similar questions). 
 
     3. The file set {evoluation.py, cofi.py} contain the code for running genetic algorithm 
-(fitness function is defined in cofi.py whereas the main genetic optimization algorithm 
-is implemented in evolution.py. 
+       (fitness function is defined in cofi.py whereas the main genetic optimization algorithm 
+       is implemented in evolution.py. 
 
 Note that the files may seem to be a bit messy but the idea here is to group key
 functions relevant to this question in one file i.e. cofi.py for the purpose of this prototype. 
