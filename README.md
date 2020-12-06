@@ -36,6 +36,11 @@ consists of:
 response is marked as a 0
 
 
+Solutions
+=========
+1. Collaborative Filtering + Genetic Algorithm
+
+
 Instructions
 ============
 
@@ -58,7 +63,7 @@ II. Related Modules
        is implemented in evolution.py. 
 
 Note that the files may seem to be a bit messy but the idea here is to group key
-functions relevant to this question in one file i.e. cofi.py for the purpose of this prototype. 
+functions relevant to this prototype in one file i.e. cofi.py for the purpose of this demo. 
 Moreover, the file set {cofi.py, cofi_ref.py} implements both types of collaborative filtering algorithms (i.e.
 weighted averaging with similarity matrix and regression-based scheme). Lastly, {minimizer.py}
 implements Polack-Ribiere flavour of conjugate gradients. The rest of the files mostly contain
