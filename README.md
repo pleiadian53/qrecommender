@@ -66,6 +66,7 @@ Implementation
 ==============
 
 I. System Requirements
+
     (a) The code was implemented in Python 2.7 on Mac OS X 10.7 platform.
     (b) Required packages: numpy, scipy, matplotlib, PIL (for visualizing similar questions and
 users).
@@ -83,12 +84,11 @@ II. Related Modules
        (fitness function is defined in cofi.py whereas the main genetic optimization algorithm 
        is implemented in evolution.py. 
 
-Note that the files may seem to be a bit messy but the idea here is to group key
-functions relevant to this prototype in one file i.e. cofi.py for the purpose of this demo. 
-Moreover, the file set {cofi.py, cofi_ref.py} implements both types of collaborative filtering algorithms (i.e.
-weighted averaging with similarity matrix and regression-based scheme). Lastly, {minimizer.py}
-implements Polack-Ribiere flavour of conjugate gradients. The rest of the files mostly contain
-helper functions.
+Note that most of the key subroutines are organized in cofi.py for the purpose of this demo. 
+The file set {`cofi.py`, `cofi_ref.py`} implements both types of collaborative filtering algorithms i.e.
+i) weighted averaging with similarity matrix and ii) a latent-factored based model that can be solved via 
+matrix factorization or via regression. Lastly, `minimizer.py` implements Polack-Ribiere flavour of 
+conjugate gradients. The rest of the files mostly contain helper functions.
 
 
 
